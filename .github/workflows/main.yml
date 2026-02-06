@@ -16,5 +16,5 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Ejecutar mi script
-        run: python script.py
+      - name: Ejecutar Test Automatizacion
+        run: python -m unittest tests.py
